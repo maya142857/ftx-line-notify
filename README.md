@@ -17,5 +17,5 @@ crontab -e
 59 7 * * * python3 /PATH/arbitrage.py 
 ```
 
-![image-20210321153504909](C:\Users\Test\AppData\Roaming\Typora\typora-user-images\image-20210321153504909.png)
+![image](https://user-images.githubusercontent.com/49953246/111897829-1e4ebb80-8a5d-11eb-8d08-1e514c64759c.png)
 
