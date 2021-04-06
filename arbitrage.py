@@ -73,6 +73,7 @@ class FtxClient:
 if __name__ == "__main__":
     LINE_API_KEY = 'LINE_NOTIFY_API_KEY'
     subaccount = FtxClient('API_KEY','API_SECRET','SUBACCOUNT_NAME')
+    coinlist = ['BTC-PERP','ETH-PERP'] #套利幣種
     
     total = 0
     account = subaccount.get_account()
@@ -86,7 +87,6 @@ if __name__ == "__main__":
         cost_24h = cost_24h + borrow_history[i]['cost']
 
     payment_24h = 0
-    coinlist = ['BTMX-PERP']
     for coin in coinlist:
         funding_payments = subaccount.get_funding_payments(future=coin)
         for i in range(24):
