@@ -3,10 +3,12 @@
 ## Description
 透過 Line Notify 獲得每日期現套利收益報告。
 
-## Usage 
+## Usage
+
 ### All you have to prepare:
 1. [Line Notify](https://notify-bot.line.me/zh_TW/) API Key
 2. [FTX](https://ftx.com/profile) API Key
+3. Python >= Version 3.6 (f-string used)
 
 程式需要修改的地方僅有第 74 - 76 行
 ```python
