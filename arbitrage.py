@@ -94,7 +94,7 @@ if __name__ == "__main__":
     
     '''
     print ('昨日收益：' + str(round((-payment_24h-cost_24h),2)) +
-    '\n當日年化：' + str(round((-payment_24h*365/total*100),2)) + '%' +
+    '\n當日年化：' + str(round(((-payment_24h-cost_24h)*365/total*100),2)) + '%' +
     '\n帳戶餘額：' + str(round(total,2)) +
     '\n保證金：' + str(round((account['marginFraction']*100),2))+ '%' #lower than 3% will be liquidated
     )
@@ -107,7 +107,7 @@ if __name__ == "__main__":
     }
     params = {"message": ' 期現套利'
     '\n昨日收益：' + str(round((-payment_24h-cost_24h),2)) +
-    '\n當日年化：' + str(round((-payment_24h*365/total*100),2)) + '%' +
+    '\n當日年化：' + str(round(((-payment_24h-cost_24h)*365/total*100),2)) + '%' +
     '\n帳戶餘額：' + str(round(total,2)) +
     '\n保證金：' + str(round((account['marginFraction']*100),2))+ '%' }
     r = requests.post("https://notify-api.line.me/api/notify",
