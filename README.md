@@ -2,6 +2,7 @@
 
 ## Description
 透過 Line Notify 獲得每日期現套利收益報告，有每日和每小時兩種版本，效果如下圖。
+
 ![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/per-day.png)
 
 ## 使用說明
