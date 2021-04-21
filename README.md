@@ -62,3 +62,4 @@ crontab -e
 ### 常見問題
 1. 如果沒有IDE，怎麼修改Python程式：對arbitrage.py點右鍵→開啟檔案→記事本。
 2. [安裝ciso8601失敗](https://hjwang520.pixnet.net/blog/post/404280185-%E5%AE%89%E8%A3%9Dmicrosoft-visual-c%2B%2B-14.0)：因為這個套件是使用C++撰寫，點進去超連結安裝Microsoft Visual C++ 14.0後，在安裝ciso8601套件應該就沒問題了。
+3. 如果需要什麼額外的功能，可以直接參考官方的[API Documentation](https://docs.ftx.com/#overview)。
