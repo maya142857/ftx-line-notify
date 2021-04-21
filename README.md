@@ -52,7 +52,7 @@ crontab -e
 - 程式或指令碼：輸入你python.exe的檔案位置 (example. C:\Users\user\AppData\Local\Programs\Python\Python38-32\python.exe)。
 - 新增引數：輸入arbitrage.py的檔案位置 (example. C:\Users\user\Desktop\printhi.py)。
 - 完成後可以直接點右邊的執行，測試看看是否設定正確
-- <img src="https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(3).png" height="50%" width="50%">
+- <img src="https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(3).png" height="30%" width="30%">
 
 --- 
 ### 常見問題
