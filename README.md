@@ -2,6 +2,7 @@
 
 ## Description
 透過 Line Notify 獲得每日期現套利收益報告，有每日和每小時兩種版本，效果如下圖。
+
 ![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/per-hour.png)
 ![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/per-day.png)
 
@@ -13,6 +14,7 @@
 3. [Python](https://www.python.org/)：程式有使用到f-string，請安裝 >=3.6 的Python版本。
 4. [pip](https://pip.pypa.io/en/stable/installing/)：Python套件管理工具。
 
+--- 
 ### Coding
 程式需要修改的地方僅有第 74 - 76 行
 ```python
@@ -25,12 +27,14 @@ coinlist = ['BTC-PERP','ETH-PERP']
 
 ### Execution
 完成上述修改後，到python檔案的目錄下，開啟命令提示字元(cmd)，輸入以下兩行指令就大功告成了。
-![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/cmd.png)
 ```shell
 pip install -r requirements.txt
 python arbitrage.py
 ```
 
+![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/cmd.png)
+
+--- 
 ### Crontab
 你需要一台24小時開機的主機，設定在每小時/每日，自動執行一次Python程式。
 
@@ -54,6 +58,7 @@ crontab -e
 - 完成後可以直接點右邊的執行，測試看看是否設定正確
 - ![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(3).png)
 
+--- 
 ### 常見問題
 1. 如果沒有IDE，怎麼修改Python程式：對arbitrage.py點右鍵→開啟檔案→記事本。
 2. [安裝ciso8601失敗](https://hjwang520.pixnet.net/blog/post/404280185-%E5%AE%89%E8%A3%9Dmicrosoft-visual-c%2B%2B-14.0)：因為這個套件是使用C++撰寫，點進去超連結安裝Microsoft Visual C++ 14.0後，在安裝ciso8601套件應該就沒問題了。
