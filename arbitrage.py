@@ -92,13 +92,11 @@ if __name__ == "__main__":
         for i in range(24):
             payment_24h = payment_24h + funding_payments[i]['payment']
     
-    '''
     print ('昨日收益：' + str(round((-payment_24h-cost_24h),2)) +
     '\n當日年化：' + str(round(((-payment_24h-cost_24h)*365/total*100),2)) + '%' +
     '\n帳戶餘額：' + str(round(total,2)) +
     '\n保證金：' + str(round((account['marginFraction']*100),2))+ '%' #lower than 3% will be liquidated
     )
-    '''
     
     # Line Notify
     headers = {

@@ -34,5 +34,5 @@ crontab -e
 # execute the file on 7:59 everyday
 00 8 * * * python3 /PATH/arbitrage.py 
 ```
-![image](https://user-images.githubusercontent.com/49953246/111897829-1e4ebb80-8a5d-11eb-8d08-1e514c64759c.png)
+![image](https://user-images.githubusercontent.com/49953246/111897829-1e4ebb80-8a5d-11eb-8d08-1e514c64759c.png)![image-20210421093156099](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210421093156099.png)
 
