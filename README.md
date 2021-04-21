@@ -2,8 +2,7 @@
 
 ## Description
 透過 Line Notify 獲得每日期現套利收益報告，有每日和每小時兩種版本，效果如下圖。
-
-<img src="https://github.com/maya142857/ftx-line-notify/blob/main/.img/per-day.png" height="600" width="300">
+![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/per-day.png)
 
 ## 使用說明
 
@@ -47,12 +46,12 @@ crontab -e
 #### Windows
 - 開始→工作排程器→右邊工作排程器程式庫欄位→新增工作
 - 一般欄位，名稱隨便取，你記的住就好，重點是觸發程序、動作的部分
-- <img src="https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(1).png" height="650" width="600">
-- <img src="https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(2).png" height="650" width="600">
+- ![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(1).png)
+- ![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(2).png)
 - 程式或指令碼：輸入你python.exe的檔案位置 (example. C:\Users\user\AppData\Local\Programs\Python\Python38-32\python.exe)。
 - 新增引數：輸入arbitrage.py的檔案位置 (example. C:\Users\user\Desktop\printhi.py)。
 - 完成後可以直接點右邊的執行，測試看看是否設定正確
-- <img src="https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(3).png" height="380" width="300">
+- ![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/win-crontab(3).png)
 
 --- 
 ### 常見問題
