@@ -28,12 +28,9 @@ coinlist = ['BTC-PERP','ETH-PERP']
 ### Execution
 完成上述修改後，到python檔案的目錄下，開啟命令提示字元(cmd)，輸入以下兩行指令就大功告成了。
 ```shell
-pip install -r requirements.txt
+pip install requests
 python arbitrage.py
 ```
-
-![image](https://github.com/maya142857/ftx-line-notify/blob/main/.img/cmd.png)
-
 --- 
 ### Crontab
 你需要一台24小時開機的主機，設定在每小時/每日，自動執行一次Python程式。
