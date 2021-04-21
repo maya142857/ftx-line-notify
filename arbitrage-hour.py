@@ -3,7 +3,6 @@ import urllib.parse
 from typing import Optional, Dict, Any, List
 from requests import Request, Session, Response
 import hmac
-from ciso8601 import parse_datetime
 import json
 import datetime
 import requests
@@ -80,8 +79,10 @@ if __name__ == "__main__":
     for coin in balance:
         total = total + coin['usdValue']
     
+    # USD利息支出
     cost = subaccount.get_borrow_history()[0]['cost']
-
+    
+    # 資金費率收入
     payment = 0
     for coin in coinlist:
         funding_payments = subaccount.get_funding_payments(future=coin)
